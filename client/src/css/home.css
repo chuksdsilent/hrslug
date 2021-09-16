@@ -1,0 +1,231 @@
+
+body{
+    background: rgb(246, 249, 252);;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+}
+
+:root{
+    --primary: #1d3557;
+    --secondary: #457b9d;
+    --tertiary: #a8dadc;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+    outline: none;
+}
+
+/*------------------------Navbar------------------------------------*/
+
+.row{
+    margin: 0px;
+}
+.navbar{
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+    background-color: var(--primary);
+    padding: .5px 0px;
+    color: white;
+}
+.navbar a{
+    font-size: 14px;
+    color: white;
+    margin: .5em;
+}
+
+
+/*--------------------------User Search------------------------------*/
+
+.user-search{
+    padding: 1em 0em;
+    border-bottom: 1px solid rgb(206, 205, 205);  
+
+}
+.search-box{
+    background: #ddd;
+    border-radius: 10px;
+}
+.search-box img{
+    width: 25px;
+    height: 25px;;
+    margin: .9em 1.5em 0px 0px;
+}
+.profile-side img{
+    width: 25px;
+    height: 25px;;
+    margin-top: 1em;
+}
+.user-search input[type=text]{
+    width: 100%;
+    height: 3.5em;
+    padding-left: 1em;
+    border: 0px;
+    background: none;
+}
+
+
+/*------------------------Menu------------------------*/
+.menus{
+    margin-top: 2em;
+}
+.menus ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 5em;
+    font-size: 1em;
+}
+
+/*-------------------------carousel---------------------*/
+.title{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+}
+.carousel {
+    margin: 2em 0em 4em 0em;
+}
+.carousel img{
+    border-radius: 10px;
+}
+
+
+/*-------------------------------Latest Products----------------------*/
+
+.data-content {
+    margin:  2em 0em;
+}
+
+.data-content img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.data-content .content{
+    padding: 1em .7em;
+}
+
+.individual-slider{
+    border: 1px solid #cddee8;
+    border-radius: 10px;
+    margin-right: 1.2em;
+}
+.d-title{
+    line-height: 1em;
+}
+.instock{
+    margin: .5em 0em;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(45, 168, 45);
+}
+.add-to-stock a{
+    display: block;
+    padding: .1em 1em;
+    text-align: center;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 1em 0em;
+    height: 2em;
+}
+.add-to-cart:hover{
+    display: block;
+    padding: .1em 1em;
+    text-align: center;
+    border: 1px solid var(--secondary);
+    background: var(--secondary);
+    color: white;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 1em 0em;
+    height: 2em;
+}
+.data-container div{
+    margin-right: .5em;
+}
+.price{
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+.data-content button{
+    border: 0px;
+}
+
+/*---------------------------- Shop Now ------------------------------*/
+
+.shop-now{
+    margin: 5em 0em;
+}
+.shop-now .row .col-md-6 img, .rocked-it-better img{
+    border-radius: 10px;
+}
+
+/*-------------------------- Who Rocked it Better -------------------------*/
+
+.rocked-it-better{
+    margin: 5em 0em;
+}
+
+.rocked-it-better h3{
+    margin: 1em 0em;
+    font-weight: bolder;
+    font-family: 'Russo One', sans-serif;    
+}
+
+
+/*--------------------------- Email List ---------------------------------*/
+
+.mailing-list{
+    background: var(--primary);
+    color: #a7a7a7;
+    padding: 6em 0em;
+}
+.mailing-list button{
+    border-radius: 0px;
+}
+.mailing-list input:focus{
+    border-radius: 0px;    
+}
+.mailing-list input{
+    border-radius: 0px;
+    background: none;
+    border-width: 0px;
+    outline: none;
+    box-shadow: none;
+    
+}
+.mailing-list .mail-box{
+    background: white;
+    padding: .3em;
+    margin-top: 1.5em;
+}
+.footer{
+    color: rgb(136 136 136);
+    background: #000;
+    padding: 1em;
+    text-align: center;
+}
+
+.dashboard{
+    background: rgb(77, 77, 194);
+    padding: 1rem 2rem;
+}
+
+.dashboard a{
+    color:white;
+}
+
+.customers{
+    padding: 3rem 5rem;
+}
+
+.upload-product{
+    margin: 5rem 10rem;
+    border: 2px solid #000;
+    padding: 1rem 2rem;
+}
